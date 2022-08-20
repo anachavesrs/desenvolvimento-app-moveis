@@ -27,8 +27,10 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(
                    getApplicationContext(),
+                        AddGiftActivity.class
+                );
 
-                )
+                startActivity(intent);
             }
         });
 
