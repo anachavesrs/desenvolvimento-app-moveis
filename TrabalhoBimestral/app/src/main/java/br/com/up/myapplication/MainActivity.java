@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 String numFone = inputEditTextFone.getText().toString();
                 String msg = inputEditTextMsg.getText().toString();
 
-                Uri webpage = Uri.parse("https://wa.me/"+numFone+"?text="+msg+"www.android.com");
+                Uri webpage = Uri.parse("https://wa.me/"+numFone+"?text="+msg);
                 Intent webIntent = new Intent(Intent.ACTION_VIEW , webpage);
                 startActivity(webIntent);
             }
